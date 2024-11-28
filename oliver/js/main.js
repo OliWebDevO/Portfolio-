@@ -655,6 +655,7 @@ $(function () {
         $('.mil-menu-btn').removeClass('mil-active');
         $('.mil-menu').removeClass('mil-active');
         $('.mil-menu-frame').removeClass('mil-active');
+        
         /***************************
 
         append

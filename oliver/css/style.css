@@ -2411,8 +2411,8 @@ services
           transform: translateY(10px);
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
   -webkit-box-orient: vertical;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
@@ -2527,13 +2527,13 @@ services
   padding-right: 0;
 }
 .mil-service-card-lg.mil-other-card:hover {
-  background-color: rgb(255, 152, 0);
+  background-color: rgb(0, 149, 255);
 }
 .mil-service-card-lg.mil-other-card:hover .mil-link svg {
   background-color: rgb(0, 0, 0);
 }
 .mil-service-card-lg.mil-other-card:hover .mil-link svg path {
-  fill: rgb(255, 152, 0);
+  fill: rgb(0, 149, 255);
 }
 @media screen and (max-width: 1200px) {
   .mil-service-card-lg.mil-other-card {
