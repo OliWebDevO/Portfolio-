@@ -1071,7 +1071,7 @@ spaces
 .mil-btn-space {
   margin-right: 30px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 790px) {
   .mil-btn-space {
     margin-right: 50px;
     margin-bottom: 30px;
@@ -2504,6 +2504,11 @@ services
 .mil-service-card-lg.mil-offset {
   margin-top: 60px;
   margin-bottom: 60px;
+}
+@media screen and (min-width: 992px) {
+  .mil-service-card-lg {
+    min-height: 650px;
+  }
 }
 @media screen and (max-width: 992px) {
   .mil-service-card-lg.mil-offset {
@@ -4334,4 +4339,11 @@ html.is-animating .mil-menu-frame {
   opacity: 0;
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
+}
+
+
+@media screen and (max-width: 992px) {
+  .mobile-hidden {
+    display: none;
+  }
 }
