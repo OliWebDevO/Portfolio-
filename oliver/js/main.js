@@ -860,6 +860,21 @@ $(function () {
             $(this).toggleClass('mil-active');
             $(this).next().toggleClass('mil-active');
         });
+        $('.mil-menu-btn2').on("click", function () {
+            $('.mil-menu-btn').toggleClass('mil-active');
+            $('.mil-menu').toggleClass('mil-active');
+            $('.mil-menu-frame').toggleClass('mil-active');
+        });
+        $('.mil-menu-btn3').on("click", function () {
+            $('.mil-menu-btn').toggleClass('mil-active');
+            $('.mil-menu').toggleClass('mil-active');
+            $('.mil-menu-frame').toggleClass('mil-active');
+        });
+        $('.mil-menu-btn4').on("click", function () {
+            $('.mil-menu-btn').toggleClass('mil-active');
+            $('.mil-menu').toggleClass('mil-active');
+            $('.mil-menu-frame').toggleClass('mil-active');
+        });
         /***************************
 
         scroll animations
@@ -1077,3 +1092,8 @@ $(function () {
     });
 
 });
+// document.querySelectorAll('.menubtndsd').forEach(item => {
+//     item.addEventListener('click', event => {
+//         document.querySelector('.mil-menu-frame').classList.toggle('mil-active');
+//     })
+// })
