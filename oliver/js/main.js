@@ -390,6 +390,11 @@ $(function () {
         $('.mil-menu').toggleClass('mil-active');
         $('.mil-menu-frame').toggleClass('mil-active');
     });
+    $('.mil-menu-btn4').on("click", function () {
+        $('.mil-menu-btn').toggleClass('mil-active');
+        $('.mil-menu').toggleClass('mil-active');
+        $('.mil-menu-frame').toggleClass('mil-active');
+    });
     /***************************
     
     main menu
