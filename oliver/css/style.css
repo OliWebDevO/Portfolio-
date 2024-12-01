@@ -4202,6 +4202,7 @@ images
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+     border-radius: 5px;
 }
 .mil-image-frame.mil-horizontal {
   padding-bottom: 65%;
