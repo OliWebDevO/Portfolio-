@@ -4204,6 +4204,14 @@ images
      object-position: center;
      border-radius: 5px;
 }
+.mil-image-frame > .ag-left {
+  -o-object-position: left;
+     object-position: left;
+}
+.mil-image-frame > .ag-right {
+  -o-object-position: right;
+     object-position: right;
+}
 .mil-image-frame.mil-horizontal {
   padding-bottom: 65%;
 }
