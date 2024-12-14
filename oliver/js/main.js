@@ -99,21 +99,24 @@ $(function () {
     timeline.to(".mil-preloader", 0.8, {
         opacity: 0,
         ease: 'sine',
-    }, "+=.2");
-    timeline.fromTo(".mil-up", 0.8, {
-        opacity: 0,
-        y: 40,
-        scale: .98,
-        ease: 'sine',
-
-    }, {
-        y: 0,
-        opacity: 1,
-        scale: 1,
         onComplete: function () {
             $('.mil-preloader').addClass("mil-hidden");
         },
-    }, "-=1");
+    }, "+=.2");
+    // timeline.fromTo(".mil-up", 0.6, {
+    //     opacity: 0,
+    //     y: 60,
+    //     scale: .98,
+    //     ease: 'sine',
+
+    // }, {
+    //     y: 0,
+    //     opacity: 1,
+    //     scale: 1,
+    //     onComplete: function () {
+    //         $('.mil-preloader').addClass("mil-hidden");
+    //     },
+    // }, "-=1");
 
     timeline.fromTo(
         ".mil-banner-content .mil-ban", {
@@ -430,13 +433,11 @@ $(function () {
         gsap.fromTo(section, {
             opacity: 0,
             y: 60,
-            scale: .98,
             ease: 'sine',
 
         }, {
             y: 0,
             opacity: 1,
-            scale: 1,
             duration: .6,
             scrollTrigger: {
                 trigger: section,
